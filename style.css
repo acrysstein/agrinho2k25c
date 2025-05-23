@@ -1,0 +1,135 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f2f2f2;
+    }
+
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .banner {
+  background-image: url('img/forest-3474531_1280.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    .banner h1 {
+      font-size: 3em;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+    }
+
+    .section-title {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #2e7d32;
+    }
+
+    .mudas {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .muda {
+      flex: 1 1 250px;
+      background-color: #e8f5e9;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .muda img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .botao {
+      margin-top: 10px;
+      background-color: #388e3c;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .botao:hover {
+      background-color: #2e7d32;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #2e7d32;
+  .projeto-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.projeto-card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.projeto-card .card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.projeto-card .card-body {
+  padding: 20px;
+}
+
+.projeto-card .card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}    color: white;
+      margin-top: 40px;
+    }
+
+
